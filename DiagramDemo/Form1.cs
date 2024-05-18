@@ -183,7 +183,7 @@ namespace DiagramDemo
         private void 流程1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             diagramControl1.Clear();
-            if (this.diagramControl1.Import("1.dg", out string msg))
+            if (this.diagramControl1.Import("demofiles\\1.dg", out string msg))
             {
                 MessageBox.Show(msg);
             }
@@ -192,7 +192,7 @@ namespace DiagramDemo
         private void 流程2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             diagramControl1.Clear();
-            if (this.diagramControl1.Import("2.dg", out string msg))
+            if (this.diagramControl1.Import("demofiles\\2.dg", out string msg))
             {
                 MessageBox.Show(msg);
             }
@@ -201,7 +201,7 @@ namespace DiagramDemo
         private void 流程3ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             diagramControl1.Clear();
-            if (this.diagramControl1.Import("3.dg", out string msg))
+            if (this.diagramControl1.Import("demofiles\\3.dg", out string msg))
             {
                 MessageBox.Show(msg);
             }
@@ -210,7 +210,7 @@ namespace DiagramDemo
         private void 流程4ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             diagramControl1.Clear();
-            if (this.diagramControl1.Import("4.dg", out string msg, true, true))
+            if (this.diagramControl1.Import("demofiles\\4.dg", out string msg, true, true))
             {
                 MessageBox.Show(msg);
             }
